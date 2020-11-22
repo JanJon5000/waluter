@@ -61,9 +61,6 @@ class Program(QWidget):
 
     def __init__(self, parent=None):
         super().__init__(parent)
-        self.month = QLineEdit()
-        self.day = QLineEdit()
-        self.year = QLineEdit()
         self.money = QLineEdit()
         self.answer = QLineEdit()
 #linie tekstowe        
@@ -83,7 +80,7 @@ class Program(QWidget):
         p = self.palette()
         p.setColor(self.backgroundRole(), Qt.gray)
         self.setPalette(p)
-        self.answer.setToolTip('Wpisz datę transakcji i wpisz kwotę')
+        self.answer.setToolTip('Wprowadź datę transakcji i wpisz kwotę')
 
 #strona to tabela
         tabularLayout = QGridLayout()
