@@ -6,6 +6,6 @@
 <p align = center>
 <img src="w.png" width = 400px height = 400px>
 </p>
-Przykład tego jak działa Waluter - pobiera z  cenę ostatniego dnia roboczego
+Przykład tego jak działa Waluter - pobiera z <a href="http://api.nbp.pl">NBP API</a> cenę ostatniego dnia roboczego
 
 Projekt zrealizowany przy użyciu frameworka PyQt5
